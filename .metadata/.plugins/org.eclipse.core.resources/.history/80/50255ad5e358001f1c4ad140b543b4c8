@@ -1,0 +1,12 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Tarefa tarefa = new Tarefa("Fazer café");
+		ListaTarefa adicionar = new ListaTarefa(addTarefa(tarefa));
+		
+
+	}
+
+}

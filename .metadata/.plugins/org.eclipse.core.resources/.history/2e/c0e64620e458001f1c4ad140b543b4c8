@@ -1,0 +1,12 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Tarefa tarefa = new Tarefa("Fazer café");
+		ListaTarefa listaTarefa = new ListaTarefa(null);
+		
+		System.out.println(listaTarefa.obterNumeroTotalDeTarefas());
+	}
+
+}
